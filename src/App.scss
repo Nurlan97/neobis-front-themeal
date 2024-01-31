@@ -1,0 +1,13 @@
+.App {
+
+    &-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background: #d49726;
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 700;
+    }
+}

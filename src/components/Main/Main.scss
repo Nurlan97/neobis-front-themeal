@@ -1,0 +1,55 @@
+.main {
+    // max-width: 1200px;
+    width: 100%;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    &__left {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    &__meal {
+        color: #d49726;
+        font-size: 44px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        line-height: 58px;
+        margin-bottom: 2rem;
+    }
+
+    &__meal_description {
+        flex-basis: 50%;
+        text-align: center;
+
+    }
+
+    &__right {
+        flex-basis: 50%;
+        text-align: center;
+    }
+
+    &__img {
+        border-radius: 8px;
+        box-shadow: 10px 12px 29px -14px rgba(0,0,0,.75);
+        object-fit: cover;
+        width: 70%;
+    }
+
+
+
+}
