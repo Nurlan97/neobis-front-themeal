@@ -1,0 +1,43 @@
+.search {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+
+
+    }
+
+    &__item {
+        &>a{
+            color: #000000;
+        }
+
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 50px;
+        
+        }
+
+        &_img_container{
+            width: 500px;
+        }
+
+        &_img{
+            width: 100%;
+
+        }
+
+        &_meal_title {
+            font-size: 25px;
+
+        }
+        &_meal_description {
+            font-size: 20px;
+        }
+
+    }
+
+}
