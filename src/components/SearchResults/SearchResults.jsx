@@ -3,11 +3,11 @@ import image from '../../images/meal2.jpg';
 import './SearchResults.scss';
 import DishDetails from '../DishDetails/DishDetails';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 
 
 const SearchResults = ({ meal }) => {
-  console.log(meal)
+  // console.log(meal)
   return (
     <ul className='search__list'>
       {
@@ -33,7 +33,13 @@ const SearchResults = ({ meal }) => {
           )) : meal && !meal.meals ? "Ничего не найдено!" : '' 
         
       }
-
+      {/* {
+        meal && 
+        
+        <Routes>
+          <Route path="/dishDetails/:id" element={<DishDetails meal={meal}/>}/>
+        </Routes>
+      } */}
 
 
 
