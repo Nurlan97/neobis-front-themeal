@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import image from '../../images/meal.jpeg';
 import './Main.scss'
 import axios from 'axios';
 import Search from '../Search/Search';
@@ -47,6 +46,8 @@ const Main = () => {
             </>}
         </div>
       </div>
+
+      <Search/>
 
     </div>
   )

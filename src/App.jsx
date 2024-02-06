@@ -2,7 +2,6 @@
 import './App.scss';
 import DishDetails from './components/DishDetails/DishDetails';
 import Main from './components/Main';
-import Search from './components/Search';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
@@ -16,21 +15,10 @@ function App() {
           
         </header>
         <Routes>
-          <Route path="/" element={
-            <>
-              <Main />
-              <Search />
-            </>
-          } />
-
+          <Route path="/" element={<Main />} />
           <Route path="/dishDetails/:id" element={<DishDetails />} />
         </Routes>
-
       </Router>
-
-
-
-
     </div>
   );
 }
